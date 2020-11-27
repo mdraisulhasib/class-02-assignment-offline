@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.col_0{flex: 0 0 auto;width: 100%;padding: 100px;}
+.col_1{width: 50%;flex: 0 0 auto;box-sizing: border-box;padding: 40px;}
+.col_2{
+	width: 50%;
+	flex: 0 0 auto; 
+}
+.pad_left{padding-left: 100px;}
+.pad_right{padding-right: 100px;}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+li{
+	list-style: none;
+}
+
+/**header portion*/
+header{padding: 40px;}
+.logo{width: 20%;flex: 0 0 auto;}
+.logo img{/*! width: 67%; */}
+nav{width: 80%;}
+nav ul{/*! width: 80%; */justify-content: flex-end;/*! width: 226%; *//*! background: red; */}
+nav ul li{}
+nav ul li a{color: #333;
+			text-decoration: none;
+			font-weight: 500;
+			text-transform: uppercase;
+			padding: 7px 30px;
+			transition-duration: 0.9s;
+		}
+nav ul li a:hover{
+	background: #333;
+	color: #fff;
+}
+/**header portion*/
+
+/**banner portion*/
+.banner_section{}
+.banner_section img{width: 100%;}
+/**banner portion*/
+
+/**blog portion full*/
+.blog-section{}
+.blog{}
+article{/*! padding: 0px 100px; */}
+article a{color: #908a8a;text-transform: uppercase;text-decoration: none;display: block;padding-top: 30px;}
+article img{width: 100%;}
+article span{padding: 15px 0;display: inline-block;color: #948c8c;text-transform: uppercase;font-weight: 500;font-size: 18px;}
+article h1{padding: 15px 0;font-size: 26px;color: #525050;}
+article p{font-size: 16px;color: #5e5a5a;}
+/**blog portion full*/
+
+footer{background: #F0F0F0;padding: 30px 0;}
+footer ..col_2{
+	padding: 30px 100px;
+}
+.footer_menu{}
+.footer_menu li{}
+.footer_menu li a{
+		display: block;
+		color: #958d8d;
+		font-size: 14px;
+		text-transform: uppercase;
+		padding-right: 30px;
+		text-decoration: none;
+		font-weight: bold;
+}
+.footer_menu li a:hover{
+	opacity: 0.5;
+}
+
+.social_link{
+	justify-content: flex-end;
+}
+.social_link li{}
+.social_link li span{
+		display: block;
+		color: #958d8d;
+		font-size: 14px;
+		padding: 0px 2px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+}
+.social_link li a{
+		display: block;
+		color: #333;
+		font-size: 14px;
+		text-transform: uppercase;
+		padding-left: 30px;
+		text-decoration: none;
+}
+.social_link li a:hover{
+	opacity: 0.5;
+}
